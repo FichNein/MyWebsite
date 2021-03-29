@@ -8,10 +8,10 @@
     <title>Blog</title>
 </head>
 <body>
-    <div class="container mt-4">
-        <h1>In Index</h1>
-        <div class="container">
-            <%- md("TestBlogpost.md")%>
+    <div class="container">
+        <%- include("partials/topbar") %>
+        <div class="container mb-4" style="border: 2px solid gray; padding: 2%; background-color: tan; color:teal">
+            <%- md("/index.md") %>
         </div>
     </div>
 </body>

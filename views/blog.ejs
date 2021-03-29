@@ -10,10 +10,12 @@
 <body>
     <div class="container">
         <%- include('partials/topbar') %>
-        <div class="card" style="border: 2px solid brown; padding: 2%">
-            <%- md("AnotherTest.md") %>
+        <div class="card mb-4" style="border: 2px solid brown; padding: 2%">
+            <%- md("/blogposts/AnotherTest.md") %>
         </div>
-        <%- include('partials/bottombar') %>
+        <div class="card mb-4" style="border: 2px solid brown; padding: 2%">
+            <%- md("/blogposts/TestBlogpost.md") %>
+        </div>
     </div>
 </body>
 </html>
